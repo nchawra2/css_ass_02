@@ -8,12 +8,10 @@ body {
   background-image: url("./image.html_720.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  border: 5px solid darkgreen;
+  border: 10px ridge rgb(38, 216, 38);
 }
 
-.page {
-  border: 5px solid rgb(95, 230, 95);
-}
+
 
 .menu {
   background-color: black;
