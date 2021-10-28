@@ -1,17 +1,13 @@
 * {
   box-sizing: border-box;
   margin: 0;
-
 }
-
 body {
   background-image: url("./image.html_720.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   border: 10px ridge rgb(38, 216, 38);
 }
-
-
 
 .menu {
   background-color: black;
@@ -28,11 +24,11 @@ body {
 }
 
 .flex {
-    display: flex;
-    justify-content: space-evenly;
-    gap: 20px;
-    margin-top: 40px;
-    margin-bottom: 40px;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 .items {
@@ -54,21 +50,21 @@ ul {
   margin-top: 10px;
 }
 
-
 .box {
-    background-color: black;
-    color: white;
-    border: 5px solid red;
-    font-weight: bold;
-    font-size: 25px;
-    border-radius: 30px;
-    /* padding: 20px; */
+  background-color: black;
+  color: white;
+  border: 5px solid red;
+  font-weight: bold;
+  font-size: 25px;
+  border-radius: 30px;
+  /* padding: 20px; */
 }
 
-#b1, #b3 {
+#b1,
+#b3 {
   padding: 20px;
+  font-style: italic;
 }
-
 
 #header {
   display: flex;
@@ -79,14 +75,13 @@ ul {
 #b2 {
   align-self: flex-start;
   padding: 20px 80px 10px 80px;
+  font-style: italic;
 }
-
 
 section {
   display: flex;
   align-items: center;
 }
-
 
 .circle {
   background-color: rgb(105, 187, 166);
@@ -119,5 +114,5 @@ section {
 }
 
 input {
-  text-align: center; 
+  text-align: center;
 }
